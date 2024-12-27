@@ -67,14 +67,12 @@ intents:
   - attendance_policy
   - safety
   - funding
-  - mba_eligibility
   - engineering_courses
   - mba_entrance_exam
   - engineering_placements
   - internships
   - career_guidance
   - pre_placement_talks
-  - eligibility_criteria
   - mechanical_engineering_admission
   - information_science_engineering_admission
   - electronics_communication_engineering_admission
@@ -117,9 +115,6 @@ responses:
   utter_scholarships:
     - text: "Scholarships are available for economically backward and meritorious students. They are offered by various government bodies and private organizations. Students must apply with relevant documents, including a current year income certificate. Details will be posted on notice boards."
   
-  utter_college_director:
-    - text: "The Director of the college is Dr. D. L. Prabhakara, holding a B.E, M.Tech(IIT-M), PGDCA, and Ph.D from IIT-KGP."
-
   utter_college_principal:
     - text: "The Principal of the college is Dr. S. S. Injaganeri, holding a B.E., M.Tech., and Ph.D. from IIT Madras."
 
@@ -263,8 +258,6 @@ responses:
     - text: "Sahyadri College has 24/7 security with trained personnel, CCTV surveillance, and strict access controls to ensure student safety."
   utter_funding:
     - text: "Students can apply for funding through our research and innovation cell. External grants and industry collaborations are also available for eligible projects."
-  utter_mba_eligibility:
-    - text: "To be eligible for the MBA program, candidates must have a bachelor's degree in any discipline with a minimum of 50% marks. Selection is based on the entrance test conducted by the college, followed by a personal interview."
 
   utter_engineering_courses:
     - text: "The college offers various engineering programs, including Mechanical Engineering, Information Science & Engineering, Electronics & Communication Engineering, and Computer Science & Engineering with specialization in Artificial Intelligence & Machine Learning."
@@ -288,9 +281,6 @@ responses:
 
   utter_pre_placement_talks:
     - text: "Sahyadri organizes pre-placement talks for engineering students, allowing companies to introduce their work culture, job roles, and expectations. These sessions help students understand the company's requirements and prepare for placement rounds effectively."
-
-  utter_eligibility_criteria:
-    - text: "Eligibility for the MBA program typically includes a bachelor's degree with a minimum percentage or GPA as required by the institution, qualifying scores in entrance exams like CAT/MAT/GMAT, and relevant work experience if specified."
 
   utter_mechanical_engineering_admission:
     - text: "The admission to Mechanical Engineering at Sahyadri is based on both KCET and COMED-K rankings. For KCET, the cutoff rank is generally between 7000-25000 (GM), while for COMED-K, it ranges from 3000-6000. The final admission depends on seat availability, category and merit, but applicants with lower ranks may still be eligible based on merit adjustments and available seats."

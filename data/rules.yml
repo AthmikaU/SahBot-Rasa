@@ -344,10 +344,6 @@ rules:
       - intent: funding
       - action: utter_funding
 
-  - rule: Handle MBA Eligibility
-    steps:
-      - intent: mba_eligibility
-      - action: utter_mba_eligibility
 
   - rule: Handle Engineering Courses
     steps:

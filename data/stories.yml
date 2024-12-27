@@ -363,7 +363,11 @@ stories:
     steps:
       - intent: pre_placement_talks
       - action: utter_pre_placement_talks
-
+      
+  - story: Handle Engineering Courses
+    steps:
+      - intent: engineering_courses
+      - action: utter_engineering_courses
 
   - story: Mechanical Engineering Admission
     steps:

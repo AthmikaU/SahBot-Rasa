@@ -560,7 +560,18 @@ nlu:
       - Do companies conduct pre-placement sessions at Sahyadri?
       - What topics are covered in pre-placement talks?
 
-
+  - intent: "engineering_courses"
+    examples: |
+      - "The college offers various engineering programs, including Mechanical Engineering, Information Science & Engineering, Electronics & Communication Engineering, and Computer Science & Engineering with specialization in Artificial Intelligence & Machine Learning."
+      - "What engineering courses are available at the college?"
+      - "Tell me about the engineering programs offered."
+      - "Does the college offer AI & ML in engineering?"
+      - "What kind of engineering courses do you offer?"
+      - "Can you list the engineering programs available?"
+      - "Are there any specialized engineering degrees?"
+      - "What engineering degrees does the college offer?"
+      - "Is Computer Science available with AI specialization?"
+      - "Do you offer Artificial Intelligence in engineering?"
 
   - intent: mechanical_engineering_admission
     examples: |
