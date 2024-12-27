@@ -228,6 +228,9 @@ nlu:
       - What is the hostel like in your institution?
       - Can you describe the hostel amenities?
       - How is the hostel equipped?
+      - Does this college provide hostel facilities?
+      - I wanted to know about hostel facilities.
+      - Is there any hostel?
 
   - intent: hostel_rules_and_regulations
     examples: |
@@ -601,3 +604,11 @@ nlu:
       - What is the CET score requirement?
       - CET cutoff for admission?
       - Please provide information on CET score requirements.
+
+  - intent: mba_placement
+    examples: |
+      - Tell me about MBA placements at Sahyadri College.
+      - What companies come for MBA placements in Sahyadri?
+      - What is the highest salary package for MBA students at Sahyadri College?
+      - Can you share the average salary for MBA graduates?
+      - What are the key recruiters for MBA students?

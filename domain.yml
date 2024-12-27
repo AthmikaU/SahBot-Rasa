@@ -77,7 +77,8 @@ intents:
   - information_science_engineering_admission
   - electronics_communication_engineering_admission
   - cet_score_requirement
-
+  - mba_placement_info
+  
 responses:
   utter_admission_requirements:
     - text: "The admission requirements vary by program. For undergraduate programs, a completed application, transcripts, and standardized test scores are required. For postgraduate programs, relevant undergraduate degrees and qualifying exam scores are needed."
@@ -101,10 +102,10 @@ responses:
     - text: "The tuition fees for management quota vary by branch. For instance, Computer Science & Engineering costs Rs. 3,30,000/- p.a, and Mechanical Engineering costs Rs. 1,50,000/- p.a. Additional fees like Placement & Training, Skill Lab, University-related fees, and miscellaneous fees are charged separately."
   
   utter_cet_admission_process:
-    - text: "Admission through CET is conducted by the Karnataka Examination Authority. Candidates take entrance exams in Physics, Chemistry, and Mathematics. Based on CET ranking, students select their preferred college during counseling. Visit [kea.kar.nic.in](http://kea.kar.nic.in) for more details."
+    - text: "Admission through CET is conducted by the Karnataka Examination Authority. Candidates take entrance exams in Physics, Chemistry, and Mathematics. Based on CET ranking, students select their preferred college during counseling. Visit <a href='http://kea.kar.nic.in'>http://kea.kar.nic.in</a> for more details."
   
   utter_comedk_admission_process:
-    - text: "Admission through Comed-K involves an entrance test conducted by the Consortium of Medical, Engineering, and Dental Colleges of Karnataka. After the test, students participate in centralized counseling to select their preferred college. Visit [comedk.org](http://comedk.org) for more information."
+    - text: "Admission through Comed-K involves an entrance test conducted by the Consortium of Medical, Engineering, and Dental Colleges of Karnataka. After the test, students participate in centralized counseling to select their preferred college. Visit <a href='http://comedk.org'>http://comedk.org</a> for more information."
   
   utter_required_documents:
     - text: "At the time of admission, candidates must submit all originals and relevant documents(Especially, SSLC, PUC/Diploma Marks Card), including the filled application form. For CET and Comed-K admissions, additional fees and placement-related charges apply. For management admissions, complete documents and application scrutiny are required."
@@ -268,7 +269,7 @@ responses:
 
 
   utter_engineering_placements:
-    - text: "Sahyadri College's placement process for engineering students is structured and efficient. Over 250 companies visit annually, offering roles like software developer, data analyst, design engineer, and project manager. Top recruiters include Microsoft, Amazon, Adobe, and Infosys, with the highest package at 40 LPA and the average at 4 LPA. Industries include IT, core engineering, manufacturing, and electronics."
+    - text: "Sahyadri College's placement process for engineering students is well-organized and effective. Every year, over 200 companies visit for recruitment, offering positions such as software developer, data analyst, design engineer, and project manager. Leading recruiters include Wipro, TCS, Infosys, Cognizant, and IBM, with the highest package at 40 LPA and the average package around 4 LPA. The industries that recruit students span IT, core engineering, manufacturing, and electronics."
 
   utter_placement_facilities:
     - text: "Sahyadri College offers excellent facilities for engineering placements, including over 500 computers for online tests, an 800-seat auditorium, and rooms for group discussions, interviews, and written tests. The campus has wireless internet, projectors, and technician support for pre-placement talks."
@@ -293,3 +294,6 @@ responses:
 
   utter_cet_score_requirement:
     - text: "The minimum CET score required for admission depends on the course and the category of the candidate. The details will be published on the official website after the CET results are announced."
+  
+  utter_mba_placement_info:
+    - text: "Sahyadri College's MBA placement process provides ample opportunities for students to secure positions in various domains such as marketing, finance, human resources, and operations. Over 100 companies visit the campus for recruitment, with top recruiters including HDFC Bank, ICICI Bank, Tata Consultancy Services (TCS), Wipro, and Accenture. The highest salary package offered is 12 LPA, and the average salary package is around 5 LPA."
